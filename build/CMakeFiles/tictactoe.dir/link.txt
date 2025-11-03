@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/tictactoe.dir/main.c.o -o tictactoe  -Wl,-rpath,/mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build/lib lib/liblogic_lib.so 
