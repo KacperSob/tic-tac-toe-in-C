@@ -40,27 +40,30 @@ bool checkIfSymbolWon(char** table, char symbol){
     bool output = true;
     // Check columns
     for(int i = 0; i < 3; i++){
+        output = true;
         for(int j = 0; j < 3; j++){
             if(table[j][i] != symbol){
                 output = false;
             }
         }
+        if(output){
+            return true;
+        }
     }
-    if(output){
-        return true;
-    }
+    
     output = true;
     // Check rows
     for(int i = 0; i < 3; i++){
+        output = true;
         for(int j = 0; j < 3; j++){
             if(table[i][j] != symbol){
                 output = false;
             }
+        }    
+        if(output){
+            return true;
         }
-    }
-    if(output){
-        return true;
-    }
+    } 
     output = true;
     // Check angle 
     for(int i = 0; i < 3; i++){

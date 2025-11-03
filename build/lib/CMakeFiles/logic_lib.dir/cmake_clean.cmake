@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/logic_lib.dir/tests.c.o"
+  "CMakeFiles/logic_lib.dir/tests.c.o.d"
   "CMakeFiles/logic_lib.dir/tictactoe.c.o"
   "CMakeFiles/logic_lib.dir/tictactoe.c.o.d"
   "liblogic_lib.pdb"

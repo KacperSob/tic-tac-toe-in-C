@@ -1,2 +1,5 @@
-1. Create unit testing header
-2. Write tests for checking who won
+1. Write tests for checking who won
+    - 3 - 5
+2. Implement actual playing against a physical player
+3. Implement random bot
+4. Implement algorythmic bot
