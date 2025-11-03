@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Documents/tic-tac-toe-in-C/lib
+# Install script for directory: /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

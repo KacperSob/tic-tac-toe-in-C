@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/tic-tac-toe-in-C
+CMAKE_SOURCE_DIR = /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/tic-tac-toe-in-C/build
+CMAKE_BINARY_DIR = /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/tic-tac-toe-in-C/build/CMakeFiles /home/ubuntu/Documents/tic-tac-toe-in-C/build/lib//CMakeFiles/progress.marks
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/tic-tac-toe-in-C/build/CMakeFiles 0
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build/CMakeFiles /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build/lib//CMakeFiles/progress.marks
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/logic_lib.dir/rule:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/logic_lib.dir/rule
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/logic_lib.dir/rule
 .PHONY : lib/CMakeFiles/logic_lib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ logic_lib: lib/CMakeFiles/logic_lib.dir/rule
 
 # fast build rule for target.
 logic_lib/fast:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/build
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/build
 .PHONY : logic_lib/fast
 
 tictactoe.o: tictactoe.c.o
@@ -135,7 +135,7 @@ tictactoe.o: tictactoe.c.o
 
 # target to build an object file
 tictactoe.c.o:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.o
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.o
 .PHONY : tictactoe.c.o
 
 tictactoe.i: tictactoe.c.i
@@ -143,7 +143,7 @@ tictactoe.i: tictactoe.c.i
 
 # target to preprocess a source file
 tictactoe.c.i:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.i
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.i
 .PHONY : tictactoe.c.i
 
 tictactoe.s: tictactoe.c.s
@@ -151,7 +151,7 @@ tictactoe.s: tictactoe.c.s
 
 # target to generate assembly for a file
 tictactoe.c.s:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.s
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/tictactoe.c.s
 .PHONY : tictactoe.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Documents/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

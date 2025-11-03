@@ -2,6 +2,8 @@
 #include "lib/tictactoe.h"
 
 int main (int argc, char *argv[]) {
-    printf("Hello World!\n");
+    char** table = createTable();
+    displayTable(table);
+    destroyTable(table);
     return 0;
 }

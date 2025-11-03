@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ubuntu/Documents/tic-tac-toe-in-C/lib
+C_INCLUDES = -I/mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/lib
 
 C_FLAGS = -g
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Documents/tic-tac-toe-in-C/main.c" "CMakeFiles/tictactoe.dir/main.c.o" "gcc" "CMakeFiles/tictactoe.dir/main.c.o.d"
+  "/mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/main.c" "CMakeFiles/tictactoe.dir/main.c.o" "gcc" "CMakeFiles/tictactoe.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

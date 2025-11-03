@@ -1,5 +1,5 @@
 CMakeFiles/tictactoe.dir/main.c.o: \
- /home/ubuntu/Documents/tic-tac-toe-in-C/main.c \
+ /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,4 +23,5 @@ CMakeFiles/tictactoe.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/lib/tictactoe.h
