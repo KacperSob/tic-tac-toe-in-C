@@ -1,0 +1,6 @@
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/CMakeFiles/tictactoe.dir
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/lib/CMakeFiles/logic_lib.dir
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/lib/CMakeFiles/edit_cache.dir
+/home/ubuntu/Documents/tic-tac-toe-in-C/build/lib/CMakeFiles/rebuild_cache.dir
