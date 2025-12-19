@@ -8,5 +8,6 @@
 
 void menu();
 void main_vs_player();
+void player_vs_machine();
 
 #endif // !GAME
