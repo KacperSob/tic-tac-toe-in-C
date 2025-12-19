@@ -130,6 +130,30 @@ logic_lib/fast:
 	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/build
 .PHONY : logic_lib/fast
 
+game.o: game.c.o
+.PHONY : game.o
+
+# target to build an object file
+game.c.o:
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/game.c.o
+.PHONY : game.c.o
+
+game.i: game.c.i
+.PHONY : game.i
+
+# target to preprocess a source file
+game.c.i:
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/game.c.i
+.PHONY : game.c.i
+
+game.s: game.c.s
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.c.s:
+	cd /mnt/c/Users/kacper/Documents/PROGRAMY/self/tic-tac-toe-in-C/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/logic_lib.dir/build.make lib/CMakeFiles/logic_lib.dir/game.c.s
+.PHONY : game.c.s
+
 tests.o: tests.c.o
 .PHONY : tests.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... logic_lib"
+	@echo "... game.o"
+	@echo "... game.i"
+	@echo "... game.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

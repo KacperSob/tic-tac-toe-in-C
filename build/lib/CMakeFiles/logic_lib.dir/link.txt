@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -g -shared -Wl,-soname,liblogic_lib.so -o liblogic_lib.so CMakeFiles/logic_lib.dir/tictactoe.c.o CMakeFiles/logic_lib.dir/tests.c.o 
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,liblogic_lib.so -o liblogic_lib.so CMakeFiles/logic_lib.dir/tictactoe.c.o CMakeFiles/logic_lib.dir/tests.c.o CMakeFiles/logic_lib.dir/game.c.o 

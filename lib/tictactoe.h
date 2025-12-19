@@ -1,5 +1,3 @@
-#include "stdlib.h"
-#include "stdio.h"
 #include <stdbool.h>
 
 #ifndef TICTACTOE
@@ -11,5 +9,6 @@ void displayTable(char** table);
 bool checkIfSymbolWon(char** table, char symbol);
 char checkWhoWon(char** table);
 void destroyTable(char** table);
+bool checkIfCanContinue(char** table);
 
 #endif

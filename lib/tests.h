@@ -1,5 +1,6 @@
 #include "tictactoe.h"
 #include <stdbool.h>
+#include "stdio.h"
 
 #ifndef TESTS
 #define TESTS
